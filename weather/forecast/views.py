@@ -6,7 +6,7 @@ from .forms import *
 # Create your views here.
 
 def index(request):
-    url='http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=f924deb344d263875f20d9ffe52cc3ff'
+    url='{{your api key}}'
     err_msg=''
     message=''
     message_class=''
